@@ -36,6 +36,5 @@ public class VerifyingItems extends BasePage {
 
 }
          return true;
-
     }
 }
