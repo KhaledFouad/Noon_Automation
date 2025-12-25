@@ -15,21 +15,6 @@ public class BasePage {
         this.driver = driver;
         this.wait = new WebDriverWait(driver, java.time.Duration.ofSeconds(7));
     }
-    WebElement loaded (By locator ){
-        return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
-
-    }
-    void click (By locator){
-        loaded(locator).click();
-        wait.until(ExpectedConditions.elementToBeClickable(locator)).click();
-
-    }
-    void  type (By locator, String text){
-        WebElement el = loaded(locator);
-        el.clear();
-        el.sendKeys(text);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(locator)).sendKeys(text);
-    }
 
 
 }
