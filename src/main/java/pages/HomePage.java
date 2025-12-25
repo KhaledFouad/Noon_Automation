@@ -13,12 +13,10 @@ public class HomePage extends BasePage {
         super(driver);
     }
 
-    public void goToElectronicsCategory() {
-
+    public ElectronicsPage goToElectronicsCategory() {
         wait.until(ExpectedConditions.elementToBeClickable(electronicsCategory)).click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(electronicsCategory));
-
-
+        return new ElectronicsPage(driver);
     }
 
 
