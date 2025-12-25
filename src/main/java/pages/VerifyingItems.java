@@ -32,7 +32,6 @@ public class VerifyingItems extends BasePage {
 
        } catch (InterruptedException e) {
                 e.printStackTrace();
-
            }
 
 }
