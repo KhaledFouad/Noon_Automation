@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Noon">
+    <test name="Scenario1">
+        <classes>
+            <class name="tests.FirstScenarioPositive"/>
+        </classes>
+    </test>
+</suite>
+
