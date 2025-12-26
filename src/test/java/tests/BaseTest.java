@@ -1,15 +1,22 @@
 package tests;
 
+import org.apache.xmlbeans.impl.xb.xsdschema.Public;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import utils.EXcelFileManager;
+import utils.JsonFileManager;
+
+import java.security.PublicKey;
 import java.util.HashMap;
 import java.util.Map;
 
 public class BaseTest {
     WebDriver driver;
+    public EXcelFileManager excelFileManager;
+    public JsonFileManager jsonFileManager;
     ConfigLoader configLoader = new ConfigLoader("src/main/resources/config.properties");
     @BeforeMethod
     public void setUp() {
@@ -18,6 +25,8 @@ public class BaseTest {
         options.addArguments("--disable-features=PasswordLeakDetection,PasswordManagerOnboarding");
         options.addArguments("--disable-save-password-bubble");
         options.addArguments("--password-store=basic");
+        excelFileManager = new EXcelFileManager("src/main/resources/testData/Providerss.xlsx", "KhaledSheet");
+        jsonFileManager = new JsonFileManager("src/main/resources/testData/Provider.json");
 
         Map<String, Object> prefs = new HashMap<>();
         prefs.put("credentials_enable_service", false);

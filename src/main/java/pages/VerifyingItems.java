@@ -22,7 +22,7 @@ public class VerifyingItems extends BasePage {
        for ( int i=0 ; i < 5 ; i++) {
            try
            {
-                Thread.sleep(1000);
+               Thread.sleep(1000);
                By cardLocator = By.xpath("(//h2[@data-qa='plp-product-box-name']/ancestor::div[contains(@class,'ProductBoxVertical')])[" + (i + 1) + "]");
                WebElement card = wait.until(ExpectedConditions.visibilityOfElementLocated(cardLocator));
                wait.until(ExpectedConditions.presenceOfNestedElementLocatedBy(card, itemPrice));        String price = card.findElement(itemPrice).getText();
@@ -31,7 +31,8 @@ public class VerifyingItems extends BasePage {
                System.out.println("Rating: " + rating);
 
        } catch (InterruptedException e) {
-                e.printStackTrace();
+               throw new RuntimeException ( e );
+
            }
 
 }
