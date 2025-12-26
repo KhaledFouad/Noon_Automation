@@ -1,0 +1,11 @@
+{
+  "priceRanges": [
+    { "minValue": 200, "maxValue": 32 },
+    { "minValue": 144, "maxValue": 767 },
+    { "minValue": 0, "maxValue": 324343 },
+    { "minValue": -32, "maxValue": 34 },
+    { "minValue": 12, "maxValue": 566 },
+    { "minValue": "dasdds", "maxValue": "trt" }
+
+  ]
+}
