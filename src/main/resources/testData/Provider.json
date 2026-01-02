@@ -7,5 +7,12 @@
     { "minValue": 12, "maxValue": 566 },
     { "minValue": "dasdds", "maxValue": "trt" }
 
+  ],
+  "scenario2": [
+    { "searchTerm": "Headphones",  "indexes": [1, 2, 3] },
+    { "searchTerm": "Laptop",     "indexes": [4, 5, 6] },
+    { "searchTerm": "Smartphone", "indexes": [7, 8, 9] },
+    { "searchTerm": "Tablet",     "indexes": [10, 11, 12] }
   ]
+
 }

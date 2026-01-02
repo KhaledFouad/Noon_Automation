@@ -1,6 +1,5 @@
 package tests;
 
-import org.apache.xmlbeans.impl.xb.xsdschema.Public;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -9,7 +8,6 @@ import org.testng.annotations.BeforeMethod;
 import utils.EXcelFileManager;
 import utils.JsonFileManager;
 
-import java.security.PublicKey;
 import java.util.HashMap;
 import java.util.Map;
 

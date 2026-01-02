@@ -12,6 +12,7 @@ public class JsonFileManager {
 
     LinkedHashMap<String, Object> data;
 
+    @SuppressWarnings("null")
     public JsonFileManager(String filePath) {
         try (Reader reader = new FileReader(filePath)) {
 

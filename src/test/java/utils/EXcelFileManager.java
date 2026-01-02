@@ -18,7 +18,7 @@ public class EXcelFileManager {
 
        try( FileInputStream fileInputStream = new FileInputStream(filePath) ){
 
-            File file = new File(filePath);
+            new File(filePath);
             workbook = new XSSFWorkbook(fileInputStream);
             sheet = workbook.getSheet(sheetName);
             if (sheet == null){

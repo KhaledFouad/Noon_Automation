@@ -5,7 +5,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-import static org.apache.poi.sl.draw.geom.GuideIf.Op.min;
 
 public class VerifyingItems extends BasePage {
   private  final By itemCard =By.xpath("//h2[@data-qa='plp-product-box-name']/ancestor::div[contains(@class,'ProductBoxVertical')][1]");

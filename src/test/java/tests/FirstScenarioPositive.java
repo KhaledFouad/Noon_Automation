@@ -10,7 +10,6 @@ import pages.VerifyingItems;
 import utils.EXcelFileManager;
 import utils.JsonFileManager;
 import utils.PropertiesFileManager;
-
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
@@ -107,6 +106,7 @@ public class FirstScenarioPositive extends BaseTest {
         verifyingItems.verifyItemDetails();
         Assert.assertTrue(true, "Item  details verification failed.");
     }
+
     @Test(dataProvider = "priceRangesFromProperties")
     public void FirstScenarioPositive3(String min, String max ) {
 
