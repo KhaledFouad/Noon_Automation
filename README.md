@@ -52,22 +52,7 @@ This project implements the first two required scenarios from the assignment doc
 4. Navigate to the cart page.
 5. Verify the cart contains the expected items with correct **name / price / quantity**.
 
-**DDT**: Excel, CSV, JSON, Properties, TestNG DataProvider
-
----
-
-## Tech Stack
-
-- **Java** (recommended: Java 17+; your environment uses Java 21)
-- **Selenium WebDriver 4.x**
-- **TestNG**
-- **Apache POI** (Excel)
-- **JSON reader** (custom `JsonFileManager`)
-- Optional logging:
-  - **SLF4J + Logback** (recommended) or Log4j2 provider
-
-> Tip: If you see SLF4J “NOP logger” warnings, add an SLF4J binding (e.g., Logback).  
-> Also consider updating Selenium to reduce Chrome DevTools Protocol (CDP) mismatch warnings.
+**DDT**: Excel, JSON, Properties
 
 ---
 
