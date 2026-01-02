@@ -1,7 +1,7 @@
-# Noon.com Test Automation (Guest User) — Selenium + TestNG (Java)
+# Noon.com Test Automation
 
 Automated end‑to‑end tests for **Noon.com** as a **guest user** (not logged in).  
-This project implements the first two required scenarios from the assignment document and is structured using the **Page Object Model (POM)** with **Data‑Driven Testing (DDT)**.
+This project implements the first two required scenarios from the assignment document and is structured using the **Page Object Model (POM)** with **Data‑Driven Testing**.
 
 ---
 
