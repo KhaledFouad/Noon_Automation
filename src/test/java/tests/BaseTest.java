@@ -17,7 +17,7 @@ public class BaseTest {
     WebDriver driver;
     public EXcelFileManager excelFileManager;
     public JsonFileManager jsonFileManager;
-    ConfigLoader configLoader = new ConfigLoader("src/main/resources/config.properties");
+    ConfigLoader configLoader = new ConfigLoader("src/main/resources/testData/Providers.properties");
     @BeforeMethod
     public void setUp() {
         ChromeOptions options = new ChromeOptions();
