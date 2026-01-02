@@ -5,20 +5,6 @@ This project implements the first two required scenarios from the assignment doc
 
 ---
 
-## Table of Contents
-- [Project Goals](#project-goals)
-- [Implemented Scenarios](#implemented-scenarios)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Configuration](#configuration)
-- [Test Data (DDT)](#test-data-ddt)
-- [How to Run](#how-to-run)
-- [Architecture & Design Notes](#architecture--design-notes)
-- [Troubleshooting (Common Errors)](#troubleshooting-common-errors)
-- [Next Steps](#next-steps)
-
----
-
 ## Project Goals
 
 1. Automate realistic guest-user flows on Noon.com.
