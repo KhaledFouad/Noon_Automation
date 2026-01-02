@@ -56,14 +56,6 @@ This project implements the first two required scenarios from the assignment doc
 
 ---
 
-### Scenario 3 — Guest Checkout Flow ⏳ (Planned)
-Proceed to checkout as guest, add address, choose Cash on Delivery, verify order summary.
-
-### Scenario 4 — Search Validation with Invalid Input ⏳ (Planned)
-Search with invalid text (e.g., `###xyz123!!!`) and verify “No results found”.
-
----
-
 ## Tech Stack
 
 - **Java** (recommended: Java 17+; your environment uses Java 21)
@@ -271,20 +263,4 @@ Over Java `assert` (often disabled unless JVM is run with `-ea`).
 - Update Selenium to a newer version to better match your Chrome version.
 - This warning usually does not break basic UI automation.
 
----
 
-## Next Steps
-
-1. Implement Scenario 3 (Guest Checkout) and Scenario 4 (Invalid Search).
-2. Add a reporting layer:
-   - Allure / ExtentReports
-3. Add retry / flaky test handling (where appropriate).
-4. Improve resilience:
-   - Handle popups (cookies/location banners)
-   - Centralize locators & selectors
-5. CI pipeline (GitHub Actions) to run tests on each push.
-
----
-
-## License
-Educational / assignment use.
